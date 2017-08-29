@@ -9,7 +9,7 @@ var reducer = function(accumulator, member, index, arr){
         return temp / arr.length;
     }
     return temp;
-}, initValue;
+};
 
 var initValue = 0;
 
