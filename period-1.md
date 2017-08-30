@@ -58,8 +58,10 @@ Watch (Two nice videos to prepare you for es2015, be sure to code along)
 * [es2005-video-1](https://www.youtube.com/watch?v=AfWYO8t7ed4)
 * [es2005-video-2](https://www.youtube.com/watch?v=LmL0Gh193M0)
 
-**Exercises** [es2015 exercises](https://docs.google.com/document/d/1pkWn0_FoZuDJhGei4XlX4mx4zkZH7iuhtc6ecr5kelY/edit)
-**Slides** TBD
+**Exercises** [es2015 exercises](https://docs.google.com/document/d/1pkWn0_FoZuDJhGei4XlX4mx4zkZH7iuhtc6ecr5kelY/edit) , 
+[Webpack exercises](https://docs.google.com/document/d/1PIMMeYPqN8Qzo4qsgjjuNAC0_15RIEVjD0DbBhcaP-0/edit?usp=sharing)
+
+**Slides** [es2015, Babel and Typescript](http://slides.mydemos.dk/es2015_typescript/es5VStypescript.html) , [Webpack and module bundling](http://slides.mydemos.dk/webpack/webpack.html#1)
 
 # 6/9-Wedensday
 * Babel and Webpack continued
@@ -71,7 +73,7 @@ Watch (Two nice videos to prepare you for es2015, be sure to code along)
 * [Using ES6 and ES7 in the Browser, with Babel, and Webpack](http://jamesknelson.com/using-es6-in-the-browser-with-babel-6-and-webpack/)
 
 **Exercises:** TBD
-**Slides:** [webpack/babel](http://js-plaul.rhcloud.com/webpack/webpack.html)
+**Slides:** TBD
 
 # **8-9-Thuersday**
 ###Complete Hand-in for Period-1
