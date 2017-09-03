@@ -64,18 +64,28 @@ Watch (Two nice videos to prepare you for es2015, be sure to code along)
 **Slides** [es2015, Babel and Typescript](http://slides.mydemos.dk/es2015_typescript/es5VStypescript.html) , [Webpack and module bundling](http://slides.mydemos.dk/webpack/webpack.html#1)
 
 # 6/9-Wedensday
-* Babel and Webpack continued
-* TypeScript continued
+
+```diff
+- Bemærk: Jeg er i Polen til React Native Konference, så denne dag er uden underviser
+```
+
+TypeScript
 
 #### Before this lesson you should:
+Setup: (if not already done) [Setup VS-code for typescript as explained here](https://code.visualstudio.com/docs/languages/typescript)
+
 **Read:**
-* Read (just this page) about [Webpack](https://webpack.github.io/docs/what-is-webpack.html)
-* [Using ES6 and ES7 in the Browser, with Babel, and Webpack](http://jamesknelson.com/using-es6-in-the-browser-with-babel-6-and-webpack/)
+- [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/home.html)
+- [Learn TypeScript in 30 Minutes (part of the exercises)](https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes)
+- [Use the handbook as reference for TypeScript](https://www.typescriptlang.org/docs/home.html)
 
-**Exercises:** TBD
-**Slides:** TBD
 
-# **8-9-Thuersday**
+**Exercises:** 
+
+[TypeScript](https://docs.google.com/document/d/1Lxg0SkcKzBkARM3nzS-82xHZfqgDECJA9blTbIjaJTQ/edit?usp=sharing)
+
+
+# **8-9-Friday**
 ###Complete Hand-in for Period-1
 
 **Period Milestones:**
