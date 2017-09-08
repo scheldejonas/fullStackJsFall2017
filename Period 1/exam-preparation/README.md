@@ -20,9 +20,11 @@ About how the language is working, in my opinion, JavaScript's main benefit is t
 
 ###### <u>Explain the two strategies for improving JavaScript: ES6 (es2015) + ES7, versus Typescript. What does it require to use these technologies: In our backend with Node, in (many different) Browsers</u>
 
-TypeScript set out to solve the problems, when browser compatibility becomes the stopping problem in a particular program. The way it works is making code self explanatory through type definitions on variables. Therefore less or even maybe zero documentation is nescessary to be written for other developers in needing it, when having to continue on your code, or even in need to use som public classes of you JavaScript code.
+TypeScript set out to solve the problems, when browser compatibility becomes the stopping problem in a particular program. The way it works is making code self explanatory through type definitions on variables. Therefore less or even maybe zero documentation is nescessary for other developers needing in future review/use of your code. Also when having to continue on your code, or even in need to use som public classes of you JavaScript code.
 
 TypeScript then transpiles into a "All Browser" JavaScript, but with no types on as JavaScript in ES5 doesn't have it.
+
+ES2015 offers some modern features like classes and promises, but it  falls short of fully addressing real world development concerns like avoid callbacks, debugging and error handling challenges brought upon by nested code, and still leaving developers to work with a transpiler to reach the widest audience possible. TypeScript is a remarkable piece of technology, offering a world-class integrated development experience. The free and cross-platform Visual Studio Code editor is the icing on the cake.
 
 ###### <u>Explain generally about node.js, and when it “makes sense” and npm, and how it “fits” into the node echo system.</u>
 
