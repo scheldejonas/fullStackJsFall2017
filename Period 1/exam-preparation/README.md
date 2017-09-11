@@ -28,19 +28,45 @@ ES2015 offers some modern features like classes and promises, but it  falls shor
 
 ###### <u>Explain generally about node.js, and when it “makes sense” and npm, and how it “fits” into the node echo system.</u>
 
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. 
 
+Node is a runtime or environment. It is not a framework. People (I feel) often get this wrong because frameworks like express are ubiquitous with node.
+
+Node.js is for easily building fast, scalable network applications. 
+
+Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+npm is short for Node Package Manager and is two things: first and foremost, it is an online repository for the publishing of open-source Node.js projects. Second, it is a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management.
 
 ###### <u>Explain about the Event Loop in Node.js</u>
 
+First about the event loop in javascript: The Event Loop is a queue of callback functions. When an async function executes, the callback function is pushed into the queue. The JavaScript engine doesn't start processing the event loop until the code after an async function has executed.
 
+Node.js - Event Loop: Node.js is a single-threaded application, but it can support concurrency via the concept of event and callbacks. Every API of Node.js is asynchronous and being single-threaded, they use async function calls to maintain concurrency. Node uses observer pattern.
+
+So Node.js is an asynchronous platform. It doesn't wait around for things like file I/O to finish - Node.js uses callbacks. 
+Just to explain: A callback is a function called at the completion of a given task; this prevents any blocking, and allows other code to be run in the meantime.
 
 ###### <u>Explain (some) of the purposes with the tools Babel and WebPack, using  examples from the exercises</u>
 
+First i'll explain what webpack is:
+webpack is a module bundler. webpack takes modules with dependencies and generates static assets representing those modules.
 
+Babel is a transpiler to transpile your ES6 code to ES5 code in either CommonJS, AMD, or UMD format. Then it pipes the transpiled code through a module bundler ex. Webpack to create one or more bundled files.
 
 ###### <u>Explain the purpose of “use strict” and also Linters, exemplified with ESLint</u>
 
+Firstly, what is it for? The JavaScript strict mode is a feature in ECMAScript 5. You can enable the strict mode by declaring this in the top of your script/function: "  'use strict'  ". 
+When a JavaScript engine sees this directive, it will start to interpret the code in a special mode.
 
+Before we understand ESLint, let's firstly understand linters.
+It is in general computer programming, that lint is a Unix utility for flagging some suspicious and non-portable constructs (likely to be bugs) in C language source code.
+Generically, lint or a linter is any tool that flags suspicious usage in software written in any computer language. So also explained as code linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn't adhere to certain style guidelines.
+
+So what is ESLint and what is the purpose more specific with ESLint?
+ESLint is an open source JavaScript linting utility originally created by Nicholas C. Zakas in June 2013.
+
+(Examples here)
 
 # Explain features with code examples
 
