@@ -72,9 +72,133 @@ ESLint is an open source JavaScript linting utility originally created by Nichol
 
 ###### <u>Variable/function-Hoisting</u>
 
+##### Variable hoisting
+
+What is hoisting in JavaScript? Hoisting is the JavaScript interpreter's action of moving all variable and function declarations to the top of the current scope. However, only the actual declarations are hoisted. Any assignments are left where they are.
+
+Variable declarations are one of the most basic aspects of any programming language. However, JavaScript has a little quirk, known as *hoisting*, which can turn an innocent looking declaration into a subtle bug. This article explains what hoisting is, and how you can avoid being burned by it.
+
+JavaScript is an extremely flexible language, and will happily allow you to declare a variable almost anywhere. For example, the following immediately-invoked function expression (IIFE) declares three variables and then displays them using an alert dialog box. As a side note, you should never use alert boxes, but we’re trying to prove a point here.
+
+```javascript
+(function() {
+  var foo = 1;
+  var bar = 2;
+  var baz = 3;
+
+  alert(foo + " " + bar + " " + baz);
+})();
+```
+
+This looks like sane JavaScript code. As expected, it displays the string `"1 2 3"`. Now, assume that the alert is moved, as shown below.
+
+```javascript
+(function() {
+  var foo = 1;
+  alert(foo + " " + bar + " " + baz);
+  var bar = 2;
+  var baz = 3;
+})();
+```
+
+If someone actually wrote this code, it was probably by mistake. Clearly, the alert takes place before `bar` and `baz` are declared. However, this is perfectly valid JavaScript, which does not generate an exception. Instead, the alert displays `"1 undefined undefined"`.
+
+Based on our previous experiment, it seems that you can reference variables that don’t exist yet. Now, let’s take the same IIFE, but remove the `baz` declaration altogether, as shown below. Suddenly, we have a `ReferenceError` because `baz` is not defined.
+
+```javascript
+(function() {
+  var foo = 1;
+  alert(foo + " " + bar + " " + baz);
+  var bar = 2;
+})();
+```
+
+This is truly interesting behavior. To understand what’s going on here, you have to understand hoisting. Hoisting is the JavaScript interpreter’s action of moving all variable and function declarations to the top of the current scope. However, only the actual declarations are hoisted. Any assignments are left where they are. Therefore, our second example IIFE actually translates to the following code.
+
+```javascript
+(function() {
+  var foo;
+  var bar;
+  var baz;
+
+  foo = 1;
+  alert(foo + " " + bar + " " + baz);
+  bar = 2;
+  baz = 3;
+})();
+```
+
+Now it makes sense why the second example didn’t generate an exception. After hoisting, `bar` and `baz` are actually declared before the alert statement, albeit with undefined values. In the third example, `baz` was removed completely. Therefore, there was nothing to hoist, and the alert statement resulted in an exception.
+
+##### Function Hoisting
+
+As previously mentioned, function declarations are also hoisted. However, functions that are assigned to variables are not hoisted. For example, the following code will work as expected due to function declaration hoisting.
+
+```javascript
+foo();
+
+function foo() {
+  alert("Hello!");
+}
+```
+
+However, the following example will fail spectacularly. The variable declaration for `foo`is hoisted before the function call. However, since the assignment to `foo` is not hoisted, an exception is thrown for trying to call a non-function variable.
+
+```javascript
+foo();
+
+var foo = function() {
+  alert("Hello!");
+};
+```
 
 
-###### <u>this in JavaScript and how it differs from what we know from Java/.net.</u>
+
+###### <u>'this' in JavaScript and how it differs from what we know from Java/.net.</u>
+
+JavaScript has a special keyword to give access to a specific context. The, this keyword can be used to access values, methods, and other objects on a context specific basis. Meaning, 'this' changes based on where it is used.
+
+There is 4 ways this can take a value.
+
+- In normal function calls
+- Within methods on objects
+- Within an object that has been constructed
+- A function invoked with .call, .apply, or bind
+
+Examples for the first three ways showed:
+
+(In normal function call)
+
+```javascript
+function helloWorld() {
+    console.log("Hello world!");
+  	console.log(this);
+};
+
+helloWorld();
+
+```
+
+This example give us this in the browser console:
+
+![Screen Shot 2017-09-11 at 14.20.13](/Users/schelde/Desktop/Screen Shot 2017-09-11 at 14.20.13.png)
+
+(Within method on object)
+
+```javascript
+var Portland = {
+  bridges: 12,
+  airport: 1,
+  soccerTeams: 1,
+  logNumberOfBridges: function() {
+    console.log("There are " + this.bridges + " bridges in Portland!");
+  }
+}
+
+Portland.logNumberOfBridges();
+```
+
+This example giv us this in the browser console:
 
 
 
@@ -99,3 +223,26 @@ ESLint is an open source JavaScript linting utility originally created by Nichol
 
 
 ###### <u>Provide examples of user defined reusable modules implemented in Node.js</u>
+
+
+
+# ES6-6 and TypeScript
+
+###### <u>Provide examples and explain the es2015 features: let, arrow functions, this, rest parameters, de-structuring assignments, maps/sets etc.</u>
+
+
+
+###### <u>Explain and demonstrate how es2015 supports modules (import and export) similar to what is offered by NodeJS.</u>
+
+
+
+###### <u>Provide an example of ES6 inheritance and reflect over the differences between Inheritance in Java and in ES6.</u>
+
+
+
+###### <u>Provide examples with es6, running in a browser, using Babel and Webpack.</u>
+
+
+
+###### <u>Provide an number of examples to demonstrate the benefits of using TypeScript, including, types, interfaces, classes and generics.</u>
+
