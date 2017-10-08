@@ -322,6 +322,10 @@ First of all I support the opinion of the link to the discussion in my sources, 
 
 What's better in this life than having a database mocking, for our api-mocking! db-mock, is an engine that is perfect for simulating a database, with a very simple setup, you can have a db-like and an api-mocks in matter of minutes. If you mock you api using Node and Express, db-mock will make your life 10x easier!
 
+<u>*NoSQL Databases*</u>
+
+
+
 ### Mongoose and MongoDB
 
 - Explain how databases like MongoDB can be classified in the NoSQL world
