@@ -21,11 +21,14 @@
 
 ### ES6 Promises
 
-- Explain about promises in ES 6 including, the problems they solve, a quick explanation of the Promise API and:
-  - Example(s) that demonstrate how to avoid the callback hell  (“Pyramid of Doom")
-  - Example(s) that demonstrate how to execute asynchronous code in serial or parallel
-  - Example(s) that demonstrate how to implement our own promise-solutions.
-  - Example(s) that demonstrate error handling with promises
+- Explain about promises in ES6 including, the problems they solve, a quick explanation of the Promise API.
+
+Promises is solving 
+
+- Example(s) that demonstrate how to avoid the callback hell  (“Pyramid of Doom")
+- Example(s) that demonstrate how to execute asynchronous code in serial or parallel
+- Example(s) that demonstrate how to implement our own promise-solutions.
+- Example(s) that demonstrate error handling with promises
 
 ### ES7 async-functions
 
