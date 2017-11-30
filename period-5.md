@@ -17,7 +17,7 @@
 [Exercises - Promises](https://docs.google.com/document/d/1jpqmitlHKeIcWzDdbe-jO281xFQiGywP3c2iKCDeffQ/edit?usp=sharing)
 
 **Slides**
-[slides (TBD)]()
+[slides](http://slides.mydemos.dk/promises/promises.html)
 
 ### 17-11-Friday ###
 * Promises recap
@@ -29,26 +29,27 @@
 - Read this article  [6 Reasons Why JavaScript’s Async/Await Blows Promises Away](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
 
 **Exercises:**
-[Exercises - async-await TBD]()
+[Exercises - async-await](https://docs.google.com/document/d/1uE22QlBGuWRWCB8PqR0fteRygiwfv4V0nZ5lhAq-r0k/edit?usp=sharing)
 
 **Slides**
-[slides (TBD)]()
+[slides](http://slides.mydemos.dk/promises.html#16)
 
 ### 22-11-Wedensday ###
 * JavaScript functional or OO ??
 * A quick recap on MobX and JavaScript the OO way
-* Simplify promises with ES7 async-functions
 * An introduction to functional programming, immutable data and Redux
 
 #### Before this lesson you should: ####
+- Watch this this video (recap from third semester) [Understanding MobX vs Redux](https://www.youtube.com/watch?v=83v8cdvGfeA)
+- Read/skim this article [Redux or MobX: An attempt to dissolve the Confusion](https://www.robinwieruch.de/redux-mobx-confusion/)
 
-TBD
+- Read this [article](https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/) OR watch this [video](https://www.youtube.com/watch?v=9M-r8p9ey8U&index=2&list=PLoYCgNOIyGADILc3iUJzygCqC8Tt3bRXt) related to immutability in JavaScript with React.
 
 **Exercises:**
-[Exercises (TBD)]()
+[Complete this tutorial (plain Redux - no React)](https://www.sitepoint.com/getting-started-redux/)
 
 **Slides**
-[slides (TBD)]()
+[slides (State,MobX and Redux)](http://slides.mydemos.dk/state/state.html)
 
 ### 24-11-Friday ###
 * Redux Continued
@@ -56,13 +57,18 @@ TBD
 
 #### Before this lesson you should: ####
 
-TBD
+[Read (and code) this tutorial](https://daveceddia.com/how-does-redux-work/)
+
 
 **Exercises:**
-[Exercises (TBD)]()
+
+If not already done, clone this [repo](https://github.com/CphbusFall2017FullStackJS/mobx_redux.git) and complete the missing todo-example (Redux)
+
+Feel free to use this [example/tutorial](https://redux.js.org/docs/basics/) as inspiration
 
 **Slides**
-[slides (TBD)]()
+
+[slides (Redux with React)](http://slides.mydemos.dk/state/state.html#29)
 
 ### 29-11-Wednesday ###
 
@@ -71,6 +77,6 @@ TBD
 *Period Milestone*
 
 - Period Hand-in: Friday December 1th 22.00
-- Hand-in Document TBD 
+- [Hand-in Document](https://docs.google.com/spreadsheets/d/18orwj1jB0jqg1rvqE0vyD0PCt3n_1mw_WojbSLtp_Yw/edit?usp=sharing)
 
 
