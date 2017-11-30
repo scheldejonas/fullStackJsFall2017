@@ -23,9 +23,16 @@
 
 - Explain about promises in ES6 including, the problems they solve, a quick explanation of the Promise API.
 
-Promises is solving 
+Promises is solving our big callback hell, to the extend of developers not fully understanding the long trail of functions needed to be done in one shoot before html page is for example ready in the browser.
+
+Promises is the way to code, we want this to happen within an parallel time used for the rest of the code.
+
+Promises is the option to set example a ajax call to start, and serve through a .then() function, when the data has been received from the ajax call.
 
 - Example(s) that demonstrate how to avoid the callback hell  (“Pyramid of Doom")
+
+[Shorter explanation](callback_hell.md)
+
 - Example(s) that demonstrate how to execute asynchronous code in serial or parallel
 - Example(s) that demonstrate how to implement our own promise-solutions.
 - Example(s) that demonstrate error handling with promises
