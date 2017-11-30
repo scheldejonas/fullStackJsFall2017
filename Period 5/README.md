@@ -31,7 +31,7 @@ Promises is the option to set example a ajax call to start, and serve through a 
 
 - Example(s) that demonstrate how to avoid the callback hell  (“Pyramid of Doom")
 
-[Shorter explanation](callback_hell.md) 
+[Callback Hell demonstration and avoidance](callback_hell.md) 
 
 - Example(s) that demonstrate how to execute asynchronous code in serial or parallel
 
