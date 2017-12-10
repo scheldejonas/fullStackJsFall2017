@@ -6,6 +6,8 @@
 
 ### Type system (Query example)
 
+[< Go back to main](/Period%203/README.md)
+
 ```javascript
 {
   hero {
@@ -41,6 +43,8 @@ Returns
 
 
 ### Schema system
+
+[< Go back to main](/Period%203/README.md)
 
 ```javascript
 type Character {
@@ -124,6 +128,8 @@ input ReviewInput {
 
 ### Apollo Client
 
+[< Go back to main](/Period%203/README.md)
+
 Query from this [file](/Period%205/courses-react-app/src/data/coursesQuery.js)
 
 ```javascript
@@ -193,6 +199,8 @@ const withMutation = graphql(LoginQuery, {
 
 ### Graphcool with React/Apollo Client
 
+[< Go back to main](/Period%203/README.md)
+
 ```javascript
 // Data
 const httpLink = new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjb19xbdv1h9c0122tfh0kdv3' });
@@ -217,6 +225,8 @@ render(
 
 ### Graphcool with Postman or Insomnia
 
+[< Go back to main](/Period%203/README.md)
+
 ![Screenshot of Postman request to a Graphcool server](postman-app-request-example-graphcool.png)
 
 ![Screenshot of Insomnia HTTP Request helper](insomnia-graphcool-request-example.png)
@@ -224,6 +234,8 @@ render(
 
 
 ### Resolvers
+
+[< Go back to main](/Period%203/README.md)
 
 Root objects resolver example
 
@@ -256,6 +268,8 @@ Human: {
 
 
 ### Composed queries
+
+[< Go back to main](/Period%203/README.md)
 
 ```javascript
 import { graphql, compose } from 'react-apollo';

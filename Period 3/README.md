@@ -99,7 +99,7 @@ Here is extracted [Mutation Apollo Client Example](/Period%203/graphql-examples.
 
 Resolvers, is by word standing for solving what to do with the query or mutation being sent to your the GraphQL api.
 
-[Resolver examples](Period%203/graphql-examples.md#resolvers)
+[Resolver examples](/Period%203/graphql-examples.md#resolvers)
 
 Many GraphQL libraries will let you omit resolvers this simple and will just assume that if a resolver isn't provided for a field, that a property of the same name should be read and returned.
 
