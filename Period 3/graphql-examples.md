@@ -4,7 +4,7 @@
 
 
 
-### Type system
+### Type system (Query example)
 
 ```javascript
 {
