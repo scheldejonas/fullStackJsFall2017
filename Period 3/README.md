@@ -157,4 +157,5 @@ The important things to understand when working with GraphQL Client side is:
 - Get into good connection with the GraphQL setup, so your data doesn't get compromised through important mutations that didn't got checked by authentication.
 - Your state management is still needed through MobX or Redux, it is not handled by ApolloProvider. It is just a library to communicate with your backend in the React app.
 - Use it as the technology bridge it is in front of your Legacy database, thirdparty REST calls or more when setting up your backend.
-- When having more the one task for the query in same flow, use the option to compose queries, so that network load is kept down, as intended through no more over- and under fetching. Here is an example of a composed query - [Composed query]()
+- When having more the one task for the query in same flow, use the option to compose queries, so that network load is kept down, as intended through no more over- and under fetching. Here is an example of a composed query - [Composed query](/Period%203/graphql-examples.md#composed-queries)
+- Enjoy spending a lot les time on customizing your backend and more on making nice interactive user interfaces.
