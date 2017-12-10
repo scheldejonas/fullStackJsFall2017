@@ -28,7 +28,7 @@
 
 GraphQL is used together with you JavaScript Express backend server, on the REST API. Your are here able to have one endpoint, that then serves all data fetching.
 
-GraphQL is implemented in so many languages, with snippets/collections for frameworks to those languages already.
+GraphQL is implemented in so many languages, with libraries for frameworks to those languages already.
 
 The list goes on here: [List of languages to GraphQL](http://graphql.org/code/) 
 
@@ -78,6 +78,8 @@ Out benefits is the writting of query gets pretty readable.
 
 - **Provide a number of examples demonstrating data fetching with GraphQL. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client**
 
+
+Here is an example from the [playground](https://graphqlbin.com/7qgCz).
 
 
 
