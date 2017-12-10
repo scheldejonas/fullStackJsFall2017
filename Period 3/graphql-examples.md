@@ -177,7 +177,7 @@ const withMutation = graphql(LoginQuery, {
 
 
 
-Graphcool with React/Apollo Client
+### Graphcool with React/Apollo Client
 
 ```javascript
 // Data
@@ -198,6 +198,14 @@ render(
     document.getElementById('root')
 );
 ```
+
+
+
+### Graphcool with Postman or Insomnia
+
+![Screenshot of Postman request to a Graphcool server](postman-app-request-example-graphcool.png)
+
+![Screenshot of Insomnia HTTP Request helper](insomnia-graphcool-request-example.png)
 
 
 

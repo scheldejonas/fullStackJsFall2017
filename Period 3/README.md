@@ -123,9 +123,9 @@ You can also get total out of the hasle with backend and create an account in th
 - **Demonstrate queries up against a graphCool backend, both via a React/Apollo Client, and from “alternative” clients like a plain node backend and/or Postman.**
 
 
-An example of graphCool connected to an React application with Apollo Client [here](/Period%203/graphql-examples.md#)
+An example of Graphcool connected to an React application with Apollo Client [here](/Period%203/graphql-examples.md#apollo-client)
 
-
+An example of Graphcool from Postman [here]().
 
 - **In an apollo based React Component, demonstrate what is used to to parse the plain GraphQL queries?**
 
