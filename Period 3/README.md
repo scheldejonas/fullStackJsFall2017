@@ -50,7 +50,7 @@ It can have the problem of the database query needing to gather to much complex 
 
 In basics, it is all about selecting fields on objects to be queried.
 
-[Type System Examples](/period%203/graphql-examples.md)
+[Type System Examples](/Period%203/graphql-examples.md)
 
 
 
