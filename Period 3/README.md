@@ -11,6 +11,7 @@ Which is why now is the perfect time to learn what exactly this GraphQL thing yo
 - https://docs.google.com/document/d/12Ri_Kt8J7a0wNBwbhVnR-jbH9ENAS0EMrfTeGmxsNhQ/edit
 - http://graphql.org/learn/
 - https://www.youtube.com/watch?v=_9RgHXqH8J0
+- http://graphql.org/learn/schema/
 - https://www.howtographql.com
 - http://graphql.org/graphql-js/
 - https://www.howtographql.com/react-apollo/0-introduction/
@@ -70,6 +71,8 @@ I have provided the examples of different ways to setup the Schema
 ### GraphQL with React + Apollo
 
 - <u>Provide a number of examples demonstrating data fetching with GraphQL. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client</u>
+
+
 
 
 
