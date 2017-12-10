@@ -57,7 +57,7 @@ It can have the problem of the database query needing to gather to much complex 
 
 <u>In basics, it is all about selecting fields on objects to be queried.</u>
 
-[Type System Examples](/Periode%203/graphql-examples.md#type-system)
+[Type System Examples](/Period%203/graphql-examples.md#type-system-query-example)
 
 Out benefits is the writting of query gets pretty readable. 
 
@@ -70,7 +70,7 @@ Out benefits is the writting of query gets pretty readable.
 
 <u>I have provided the examples of different ways to setup the Schema.</u>
 
-[Schema System Examples](/Periode%203/graphql-examples.md#schema-system)
+[Schema System Examples](/Period%203/graphql-examples.md#schema-system)
 
 
 
