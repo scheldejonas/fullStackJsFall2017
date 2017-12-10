@@ -62,7 +62,7 @@ Out benefits is the writting of query gets pretty readable.
 
 A Schema definition is to make queries understandable for GraphQL, and they have support for the most concepts.
 
-I have provided the examples of different ways to setup the Schema
+I have provided the examples of different ways to setup the Schema.
 
 [Schema System Examples](/Period%203/graphql-examples.md#schema-system)
 
