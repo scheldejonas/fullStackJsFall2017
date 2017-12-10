@@ -81,11 +81,17 @@ Out benefits is the writting of query gets pretty readable.
 
 Here is an example from the [playground](https://graphqlbin.com/7qgCz).
 
-
+Here is extracted [Query Apollo Client example](/Period%205/graphql-examples.md#apollo-client) from the `courses-react-app` project
 
 
 
 - **Provide a number of examples demonstrating creating, updating and deleting with Mutations. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client.**
+
+
+Here is an example from the playground.
+
+Here is extracted [Mutation Apollo Client Example](/Period%205/graphql-examples.md#apollo-client) from the `courses-react-app` project.
+
 
 
 
