@@ -50,14 +50,20 @@ It can have the problem of the database query needing to gather to much complex 
 
 In basics, it is all about selecting fields on objects to be queried.
 
-[Type System Examples](/Period%203/graphql-examples.md)
+[Type System Examples](/Period%203/graphql-examples.md#type-system)
 
-
+Out benefits is the writting of query gets pretty readable. 
 
 
 
 - <u>Explain shortly about GraphQL Schema Definition Language, and provide an number of examples of schemas you have defined.</u>
 
+
+A Schema definition is to make queries understandable for GraphQL, and they have support for the most concepts.
+
+I have provided the examples of different ways to setup the Schema
+
+[Schema System Examples](/Period%203/graphql-examples.md#schema-system)
 
 
 
