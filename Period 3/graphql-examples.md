@@ -147,7 +147,7 @@ export default graphql(coursesQuery, {
             id: props.courseId
         }
     })
-})(CoursesPage);
+})(Courses);
 ```
 
 
@@ -173,6 +173,30 @@ const withMutation = graphql(LoginQuery, {
     }),
 });
 
+```
+
+
+
+Graphcool with React/Apollo Client
+
+```javascript
+// Data
+const httpLink = new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjb19xbdv1h9c0122tfh0kdv3' });
+const networkInterface = createNetworkInterface({
+    uri: httpLink.uri
+});
+const client = new ApolloClient({networkInterface});
+const store = configureStore(client);
+
+// Render
+render(
+    (
+    <ApolloProvider client={client} store={store}>
+        {routes}
+    </ApolloProvider>
+    ),
+    document.getElementById('root')
+);
 ```
 
 

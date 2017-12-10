@@ -99,7 +99,7 @@ Here is extracted [Mutation Apollo Client Example](/Period%203/graphql-examples.
 
 Resolvers, is by word standing for solving what to do with the query or mutation being sent to your the GraphQL api.
 
-[Resolver examples](/Period%203/graphql-examples.md#Resolvers)
+[Resolver examples](Period%203/graphql-examples.md#resolvers)
 
 Many GraphQL libraries will let you omit resolvers this simple and will just assume that if a resolver isn't provided for a field, that a property of the same name should be read and returned.
 
@@ -114,10 +114,16 @@ That means in the overview it looks like:
 - **Explain about graphCool and how it fits into the GraphQL world**
 
 
+It is a open-source framework to develop and deploy production-ready serverless GraphQL backends. Including GraphQL database mapping, real-time subscriptions & flexible permission system.
+
+You can also get total out of the hasle with backend and create an account in the managed GrapQL Backend Hosting service at Graphcool [here](https://console.graph.cool/signup).
+
 
 
 - **Demonstrate queries up against a graphCool backend, both via a React/Apollo Client, and from “alternative” clients like a plain node backend and/or Postman.**
 
+
+An example of graphCool connected to an React application with Apollo Client [here](/Period%203/graphql-examples.md#)
 
 
 

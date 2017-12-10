@@ -1,0 +1,3 @@
+targets:
+  courses-react-app: shared-eu-west-1/cjb19xbdv1h9c0122tfh0kdv3
+  default: courses-react-app

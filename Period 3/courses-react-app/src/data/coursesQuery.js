@@ -18,4 +18,4 @@ export default graphql(coursesQuery, {
             id: props.courseId
         }
     })
-})(CoursesPage);
+})(Courses);

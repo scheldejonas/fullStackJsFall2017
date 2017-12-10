@@ -11,8 +11,9 @@ import './css/style.css';
 import routes from './router';
 
 // Data
+const httpLink = new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjb19xbdv1h9c0122tfh0kdv3' });
 const networkInterface = createNetworkInterface({
-    uri: process.env.REACT_APP_GRAPHQL_URL
+    uri: httpLink.uri
 });
 const client = new ApolloClient({networkInterface});
 const store = configureStore(client);
