@@ -21,7 +21,7 @@ Which is why now is the perfect time to learn what exactly this GraphQL thing yo
 
 ### GraphQL overview
 
-- <u>Explain shortly about GraphQL, it purpose and some of it’s use cases</u>
+- <u>**Explain shortly about GraphQL, it purpose and some of it’s use cases**</u>
 
 
 GraphQL's purpose is to be a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn't tied to any specific database or storage engine and is instead backed by your existing code and data.
@@ -30,8 +30,8 @@ GraphQL is used together with you JavaScript Express backend server, on the REST
 
 
 
-- <u>Explain some of the Server Architectures that can be implemented with a GraphQL backend</u>
-  <u>What is meant by the terms over- and under fetching in relation to REST</u>
+- **<u>Explain some of the Server Architectures that can be implemented with a GraphQL backend</u>**
+  **<u>What is meant by the terms over- and under fetching in relation to REST</u>**
 
 
 GraphQL is implemented in so many languages, with snippets/collections for frameworks to those languages already.
@@ -46,7 +46,7 @@ It can have the problem of the database query needing to gather to much complex 
 
 
 
-- <u>Explain shortly about GraphQL’s type system and some of the benefits we get from this</u>
+- <u>**Explain shortly about GraphQL’s type system and some of the benefits we get from this**</u>
 
 
 In basics, it is all about selecting fields on objects to be queried.
@@ -57,7 +57,7 @@ Out benefits is the writting of query gets pretty readable.
 
 
 
-- <u>Explain shortly about GraphQL Schema Definition Language, and provide an number of examples of schemas you have defined.</u>
+- **<u>Explain shortly about GraphQL Schema Definition Language, and provide an number of examples of schemas you have defined.</u>**
 
 
 A Schema definition is to make queries understandable for GraphQL, and they have support for the most concepts.
@@ -70,45 +70,45 @@ I have provided the examples of different ways to setup the Schema
 
 ### GraphQL with React + Apollo
 
-- <u>Provide a number of examples demonstrating data fetching with GraphQL. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client</u>
+- <u>**Provide a number of examples demonstrating data fetching with GraphQL. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client**</u>
 
 
 
 
 
 
-- <u>Provide a number of examples demonstrating creating, updating and deleting with Mutations. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client.</u>
+- <u>**Provide a number of examples demonstrating creating, updating and deleting with Mutations. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client.**</u>
 
 
 
 
-- <u>Explain the Concept of a Resolver function, and provide a number of simple example of resolvers you have implemented in a GraphQL Server.</u>
+- <u>**Explain the Concept of a Resolver function, and provide a number of simple example of resolvers you have implemented in a GraphQL Server**.</u>
 
 
 
 
 ### GraphQL with Graphcool
 
-- <u>Explain about graphCool and how it fits into the GraphQL world</u>
+- <u>**Explain about graphCool and how it fits into the GraphQL world**</u>
 
 
 
 
-- <u>Demonstrate queries up against a graphCool backend, both via a React/Apollo Client, and from “alternative” clients like a plain node backend and/or Postman.</u>
+- <u>**Demonstrate queries up against a graphCool backend, both via a React/Apollo Client, and from “alternative” clients like a plain node backend and/or Postman.**</u>
 
 
 
 
-- <u>In an apollo based React Component, demonstrate what is used to to parse the plain GraphQL queries?</u>
+- <u>**In an apollo based React Component, demonstrate what is used to to parse the plain GraphQL queries?**</u>
 
 
 
 
-- <u>In an apollo based React Component, demonstrate where/how a query is injected into the  props of the query, and how the props value gets its name.</u>
+- <u>**In an apollo based React Component, demonstrate where/how a query is injected into the  props of the query, and how the props value gets its name.**</u>
 
 
 
 
-- <u>Demonstrate a demo Apollo/React - client and point out important things necessary to work with this technology</u>
+- <u>**Demonstrate a demo Apollo/React - client and point out important things necessary to work with this technology**</u>
 
 
