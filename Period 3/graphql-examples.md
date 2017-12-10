@@ -175,3 +175,35 @@ const withMutation = graphql(LoginQuery, {
 
 ```
 
+
+
+### Resolvers
+
+Root objects resolver example
+
+```javascript
+Query: {
+  human(obj, args, context) {
+    return context.db.loadHumanByID(args.id).then(
+      userData => new Human(userData)
+    )
+  }
+}
+```
+
+A resolver function receives three arguments:
+
+- `obj` The previous object, which for a field on the root Query type is often not used.
+- `args` The arguments provided to the field in the GraphQL query.
+- `context` A value which is provided to every resolver and holds important contextual information like the currently logged in user, or access to a database.
+
+Then when the human is being resolved, it looks like this
+
+```javascript
+Human: {
+  name(obj, args, context) {
+    return obj.name
+  }
+}
+```
+

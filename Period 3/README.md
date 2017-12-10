@@ -57,7 +57,7 @@ It can have the problem of the database query needing to gather to much complex 
 
 <u>In basics, it is all about selecting fields on objects to be queried.</u>
 
-[Type System Examples](/Periode%205/graphql-examples.md#type-system)
+[Type System Examples](/Periode%203/graphql-examples.md#type-system)
 
 Out benefits is the writting of query gets pretty readable. 
 
@@ -70,7 +70,7 @@ Out benefits is the writting of query gets pretty readable.
 
 <u>I have provided the examples of different ways to setup the Schema.</u>
 
-[Schema System Examples](/Periode%205/graphql-examples.md#schema-system)
+[Schema System Examples](/Periode%203/graphql-examples.md#schema-system)
 
 
 
@@ -81,23 +81,31 @@ Out benefits is the writting of query gets pretty readable.
 
 Here is an example from the [playground](https://graphqlbin.com/7qgCz).
 
-Here is extracted [Query Apollo Client example](/Period%205/graphql-examples.md#apollo-client) from the `courses-react-app` project
+Here is extracted [Query Apollo Client example](/Period%203/graphql-examples.md#apollo-client) from the `courses-react-app` project
 
 
 
 - **Provide a number of examples demonstrating creating, updating and deleting with Mutations. You should provide examples both running in a Sandbox/playground and examples executed in an Apollo Client.**
 
 
-Here is an example from the playground.
+Here is an example from the [playground](https://www.graphqlbin.com/mWKF6).
 
-Here is extracted [Mutation Apollo Client Example](/Period%205/graphql-examples.md#apollo-client) from the `courses-react-app` project.
-
-
+Here is extracted [Mutation Apollo Client Example](/Period%203/graphql-examples.md#apollo-client) from the `courses-react-app` project.
 
 
 
 - **Explain the Concept of a Resolver function, and provide a number of simple example of resolvers you have implemented in a GraphQL Server.**
 
+
+Resolvers, is by word standing for solving what to do with the query or mutation being sent to your the GraphQL api.
+
+[Resolver examples](/Period%203/graphql-examples.md#Resolvers)
+
+Many GraphQL libraries will let you omit resolvers this simple and will just assume that if a resolver isn't provided for a field, that a property of the same name should be read and returned.
+
+That means in the overview it looks like:
+
+![JavaScript Express Backend App Overview with GraphQL](express-app-overview-with-graphql.png)
 
 
 
