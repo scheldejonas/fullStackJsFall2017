@@ -150,6 +150,20 @@ export default graphql(coursesQuery, {
 })(Courses);
 ```
 
+Or if you need to get a specific instance in your database, matched from parameters
+
+```javascript
+export default graphql(coursesQuery, {
+  options: props => ({
+    variables: {
+      id: props.match.params.courseId
+    }
+  })
+})(Courses);
+```
+
+
+
 
 
 Mutation from this file.
@@ -237,5 +251,19 @@ Human: {
     return obj.name
   }
 }
+```
+
+
+
+### Composed queries
+
+```javascript
+import { graphql, compose } from 'react-apollo';
+import { connect } from 'react-redux';
+export default compose(
+  graphql(query, queryOptions),
+  graphql(mutation, mutationOptions),
+  connect(mapStateToProps, mapDispatchToProps)
+)(Component);
 ```
 

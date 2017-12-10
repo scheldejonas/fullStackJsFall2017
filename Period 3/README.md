@@ -123,20 +123,38 @@ You can also get total out of the hasle with backend and create an account in th
 - **Demonstrate queries up against a graphCool backend, both via a React/Apollo Client, and from “alternative” clients like a plain node backend and/or Postman.**
 
 
-An example of Graphcool connected to an React application with Apollo Client [here](/Period%203/graphql-examples.md#apollo-client)
+An example of Graphcool connected to an React application with Apollo Client [here](/Period%203/graphql-examples.md#graphcool-with-reactapollo-client)
 
-An example of Graphcool from Postman [here]().
+An example of Graphcool from Postman/Insomnia [here](/Period%203/graphql-examples.md#graphcool-with-postman-or-insomnia).
+
+
 
 - **In an apollo based React Component, demonstrate what is used to to parse the plain GraphQL queries?**
 
+
+To parse it, an JavaScript Template Literal is used.
+
+It works the same way as in Java with String.format("Text %s", "Joe"); = Text Joe.
+
+This is an example of an parsed plain GrapQL query [here](/Period%203/graphql-examples.md#apollo-client) (line 4 -13)
 
 
 
 - **In an apollo based React Component, demonstrate where/how a query is injected into the  props of the query, and how the props value gets its name.**
 
 
+You do that through giving the (arrow) callback function on props for graphql query options with variables.
+
+This is an example of getting an course by id [here](/Period%203/graphql-examples.md#apollo-client) (line 15-21 and  1-7 in second code snippet).
+
 
 
 - **Demonstrate a demo Apollo/React - client and point out important things necessary to work with this technology**
 
 
+The important things to understand when working with GraphQL Client side is:
+
+- Get into good connection with the GraphQL setup, so your data doesn't get compromised through important mutations that didn't got checked by authentication.
+- Your state management is still needed through MobX or Redux, it is not handled by ApolloProvider. It is just a library to communicate with your backend in the React app.
+- Use it as the technology bridge it is in front of your Legacy database, thirdparty REST calls or more when setting up your backend.
+- When having more the one task for the query in same flow, use the option to compose queries, so that network load is kept down, as intended through no more over- and under fetching. Here is an example of a composed query - [Composed query]()
