@@ -46,7 +46,7 @@ Let's then go to the differences. Java is a compiled language, which means the c
 
 JavaScript is a scripted functional coding language, that is ready for running the minute you have the js files.
 
-About single programs for a desktop computer javascript are only able to run in the browser or a program built on a browser engine installed on that computer. Java is able to install and run as a independent program. 
+About single programs for a desktop computer javascript are only able to run in the browser or a program built on a browser engine installed on that computer. Java is able to install and run as a independent program with java client software installed.
 
 About how the language is working, in my opinion, JavaScript's main benefit is that it can be understood by the common human. It is much easier and more robust than Java. It allows for fast creation of web page events. Many JavaScript commands are what are known as Event Handlers: They can be embedded right into existing HTML commands. JavaScript is a little more forgiving than Java. It allows more freedom in the creation of objects. Java is very rigid and requires all items to be denoted and spelled out.
 
@@ -104,9 +104,9 @@ ESLint is an open source JavaScript linting utility originally created by Nichol
 
 What is hoisting in JavaScript? Hoisting is the JavaScript interpreter's action of moving all variable and function declarations to the top of the current scope. However, only the actual declarations are hoisted. Any assignments are left where they are.
 
-Variable declarations are one of the most basic aspects of any programming language. However, JavaScript has a little quirk, known as *hoisting*, which can turn an innocent looking declaration into a subtle bug. This article explains what hoisting is, and how you can avoid being burned by it.
+Variable declarations are one of the most basic aspects of any programming language. However, JavaScript has a little quirk, known as *hoisting*, which can turn an innocent looking declaration into a subtle bug. 
 
-JavaScript is an extremely flexible language, and will happily allow you to declare a variable almost anywhere. For example, the following immediately-invoked function expression (IIFE) declares three variables and then displays them using an alert dialog box. As a side note, you should never use alert boxes, but we’re trying to prove a point here.
+JavaScript is an extremely flexible language, and will happily allow you to declare a variable almost anywhere. For example, the following immediately-invoked function expression (IIFE) declares three variables and then displays them using an alert dialog box. As a side note, you should never use alert boxes, but i'm trying to prove a point.
 
 ```javascript
 (function() {
@@ -184,7 +184,7 @@ var foo = function() {
 
 - ``this`` in JavaScript and how it differs from what we know from Java/.net.
 
-JavaScript has a special keyword to give access to a specific context. The, this keyword can be used to access values, methods, and other objects on a context specific basis. Meaning, 'this' changes based on where it is used.
+JavaScript has a special keyword to give access to a specific context. The, this keyword can be used to access values, methods, and other objects on a context specific basis. Meaning, ``this`` changes based on where it is used.
 
 There is 4 ways this can take a value.
 
@@ -195,7 +195,7 @@ There is 4 ways this can take a value.
 
 Examples for the first three ways showed:
 
-###### In normal function call
+##### In normal function call
 
 ```javascript
 function helloWorld() {
@@ -208,9 +208,9 @@ helloWorld();
 
 This example give us this in the browser console:
 
-![Screen Shot 2017-09-11 at 14.20.13](/Period%201/exam-preparation/images/hello_world.png)
+![Screen Shot 2017-09-11 at 14.20.13](images/hello_world.png)
 
-###### Within method on object
+##### Within method on object
 
 ```javascript
 var Portland = {
@@ -229,7 +229,7 @@ This example give us this in the browser console:
 
 ![Screen Shot 2017-09-11 at 20.59.34](images/portland_example.png)
 
-###### Within an object that has been contructed
+##### Within an object that has been contructed
 
 ```javascript
 var Portland = {
@@ -252,9 +252,9 @@ Portland.foo();
 
 This example give us this in the browser console:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-11 at 21.09.28](Screen Shot 2017-09-11 at 21.09.28.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-11 at 21.09.28](images/portland_logteams_example.png)
 
-'this' in javascript
+``this`` in javascript
 
 So if we for example would have written ```logTeams()``` instead of ```Portland.foo()``` we would have gotten an ```undefined``` answer instead of ```1```. because the callable function is not attached or in other words referenced to the right context.
 
@@ -327,7 +327,7 @@ console.log('Cruise ID: ' + createIdForActionCelebs[1].id()); // 103 (wrong)
 
 Result from the console:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 17.33.30](Screen Shot 2017-09-12 at 17.33.30.png)
+![Screen Shot 2017-09-12 at 17.33.30](images/closure_simple_explained.png)
 
 So now we see in the lowest example, that function closure can also be a problem.
 
@@ -362,7 +362,7 @@ console.log('Cruise ID: ' + cruiseID.id); // 101
 
 The console gives us then this:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 17.35.49](Screen Shot 2017-09-12 at 17.35.49.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 17.35.49](images/closure_with_iife_example.png)
 
 
 
@@ -393,7 +393,7 @@ newObj.print(); //I am a new Object and I can print.
 
 The console then prints this:
 
-###### ![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 17.51.27](Screen Shot 2017-09-12 at 17.51.27.png)
+###### ![Screen Shot 2017-09-12 at 17.51.27](images/new_object_created.png)
 
 So it is basicly used to create inheritance. That means objects, which inherits functions created on a function or and object.
 
@@ -436,7 +436,7 @@ getInput ({name:"Rich", speciality:"JavaScript"}, logStuff);
 
 This is then what the console is giving us:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 21.28.34](Screen Shot 2017-09-12 at 21.28.34.png)
+![Screen Shot 2017-09-12 at 21.28.34](images/user_object_printed_to_console.png)
 
 
 
@@ -478,7 +478,7 @@ console.log (window.fullName); // Barack Obama
 
 The console then logs this:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 21.44.42](Screen Shot 2017-09-12 at 21.44.42.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 21.44.42](images/user_not_set.png)
 
 
 
@@ -514,7 +514,7 @@ console.log (clientData.fullName); // Barack Obama
 
 This is then what comes out of the console:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 21.52.12](Screen Shot 2017-09-12 at 21.52.12.png)
+![Screen Shot 2017-09-12 at 21.52.12](images/apply_used_to_solve.png)
 
 And that's how to do.
 
@@ -580,7 +580,7 @@ console.log(uniqueArray);
 
 This then comes out in the console:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.12.35](Screen Shot 2017-09-12 at 22.12.35.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.12.35](images/filter.png)
 
 So California is filtered out.
 
@@ -607,7 +607,7 @@ console.log(celcius) //  [-18, 0, 7, 10, 24, 27, 37, 49]
 
 This then is coming out in the console:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.16.15](Screen Shot 2017-09-12 at 22.16.15.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.16.15](images/map.png)
 
 So fahrenheit is turned into celcious
 
@@ -639,7 +639,7 @@ console.log(sum); // 85
 
 This is then displayed in the console
 
-![Screen Shot 2017-09-12 at 22.19.44](Screen Shot 2017-09-12 at 22.19.44.png)
+![Screen Shot 2017-09-12 at 22.19.44](images/reduce.png)
 
 So all the launches is added together to see the total number of launches. Easy !
 
