@@ -208,7 +208,7 @@ helloWorld();
 
 This example give us this in the browser console:
 
-![Screen Shot 2017-09-11 at 14.20.13](Screen Shot 2017-09-11 at 14.20.13.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-11 at 14.20.13](Screen Shot 2017-09-11 at 14.20.13.png)
 
 ###### Within method on object
 
@@ -227,7 +227,7 @@ Portland.logNumberOfBridges();
 
 This example give us this in the browser console:
 
-![Screen Shot 2017-09-11 at 20.59.34](Screen Shot 2017-09-11 at 20.59.34.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-11 at 20.59.34](Screen Shot 2017-09-11 at 20.59.34.png)
 
 ###### Within an object that has been contructed
 
@@ -252,7 +252,7 @@ Portland.foo();
 
 This example give us this in the browser console:
 
-![Screen Shot 2017-09-11 at 21.09.28](Screen Shot 2017-09-11 at 21.09.28.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-11 at 21.09.28](Screen Shot 2017-09-11 at 21.09.28.png)
 
 'this' in javascript
 
@@ -327,7 +327,7 @@ console.log('Cruise ID: ' + createIdForActionCelebs[1].id()); // 103 (wrong)
 
 Result from the console:
 
-![Screen Shot 2017-09-12 at 17.33.30](Screen Shot 2017-09-12 at 17.33.30.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 17.33.30](Screen Shot 2017-09-12 at 17.33.30.png)
 
 So now we see in the lowest example, that function closure can also be a problem.
 
@@ -362,7 +362,7 @@ console.log('Cruise ID: ' + cruiseID.id); // 101
 
 The console gives us then this:
 
-![Screen Shot 2017-09-12 at 17.35.49](Screen Shot 2017-09-12 at 17.35.49.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 17.35.49](Screen Shot 2017-09-12 at 17.35.49.png)
 
 
 
@@ -393,7 +393,7 @@ newObj.print(); //I am a new Object and I can print.
 
 The console then prints this:
 
-###### ![Screen Shot 2017-09-12 at 17.51.27](Screen Shot 2017-09-12 at 17.51.27.png)
+###### ![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 17.51.27](Screen Shot 2017-09-12 at 17.51.27.png)
 
 So it is basicly used to create inheritance. That means objects, which inherits functions created on a function or and object.
 
@@ -436,7 +436,7 @@ getInput ({name:"Rich", speciality:"JavaScript"}, logStuff);
 
 This is then what the console is giving us:
 
-![Screen Shot 2017-09-12 at 21.28.34](Screen Shot 2017-09-12 at 21.28.34.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 21.28.34](Screen Shot 2017-09-12 at 21.28.34.png)
 
 
 
@@ -478,7 +478,7 @@ console.log (window.fullName); // Barack Obama
 
 The console then logs this:
 
-![Screen Shot 2017-09-12 at 21.44.42](Screen Shot 2017-09-12 at 21.44.42.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 21.44.42](Screen Shot 2017-09-12 at 21.44.42.png)
 
 
 
@@ -514,7 +514,7 @@ console.log (clientData.fullName); // Barack Obama
 
 This is then what comes out of the console:
 
-![Screen Shot 2017-09-12 at 21.52.12](Screen Shot 2017-09-12 at 21.52.12.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 21.52.12](Screen Shot 2017-09-12 at 21.52.12.png)
 
 And that's how to do.
 
@@ -580,7 +580,7 @@ console.log(uniqueArray);
 
 This then comes out in the console:
 
-![Screen Shot 2017-09-12 at 22.12.35](Screen Shot 2017-09-12 at 22.12.35.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.12.35](Screen Shot 2017-09-12 at 22.12.35.png)
 
 So California is filtered out.
 
@@ -607,7 +607,7 @@ console.log(celcius) //  [-18, 0, 7, 10, 24, 27, 37, 49]
 
 This then is coming out in the console:
 
-![Screen Shot 2017-09-12 at 22.16.15](Screen Shot 2017-09-12 at 22.16.15.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.16.15](Screen Shot 2017-09-12 at 22.16.15.png)
 
 So fahrenheit is turned into celcious
 
@@ -639,7 +639,7 @@ console.log(sum); // 85
 
 This is then displayed in the console
 
-![Screen Shot 2017-09-12 at 22.19.44](Screen Shot 2017-09-12 at 22.19.44.png)
+![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.19.44](Screen Shot 2017-09-12 at 22.19.44.png)
 
 So all the launches is added together to see the total number of launches. Easy !
 
