@@ -208,7 +208,7 @@ helloWorld();
 
 This example give us this in the browser console:
 
-![Screen Shot 2017-09-11 at 14.20.13](/Period%201/exam-preparation/Screen Shot 2017-09-11 at 14.20.13.png)
+![Screen Shot 2017-09-11 at 14.20.13](/Period%201/exam-preparation/images/hello_world.png)
 
 ###### Within method on object
 
@@ -227,7 +227,7 @@ Portland.logNumberOfBridges();
 
 This example give us this in the browser console:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-11 at 20.59.34](Screen Shot 2017-09-11 at 20.59.34.png)
+![Screen Shot 2017-09-11 at 20.59.34](images/portland_example.png)
 
 ###### Within an object that has been contructed
 
