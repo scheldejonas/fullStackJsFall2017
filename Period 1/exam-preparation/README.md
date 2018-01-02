@@ -208,7 +208,7 @@ helloWorld();
 
 This example give us this in the browser console:
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-11 at 14.20.13](Screen Shot 2017-09-11 at 14.20.13.png)
+![Screen Shot 2017-09-11 at 14.20.13](/Period%201/exam-preparation/Screen Shot 2017-09-11 at 14.20.13.png)
 
 ###### Within method on object
 
@@ -639,7 +639,7 @@ console.log(sum); // 85
 
 This is then displayed in the console
 
-![/Period%201/exam-preparation/Screen Shot 2017-09-12 at 22.19.44](Screen Shot 2017-09-12 at 22.19.44.png)
+![Screen Shot 2017-09-12 at 22.19.44](Screen Shot 2017-09-12 at 22.19.44.png)
 
 So all the launches is added together to see the total number of launches. Easy !
 
