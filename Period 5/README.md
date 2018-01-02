@@ -37,8 +37,16 @@ Promises is the option to set example a ajax call to start, and serve through a 
 
 
 
+
+
 - Example(s) that demonstrate how to implement our own promise-solutions.
+
+
+
+
 - Example(s) that demonstrate error handling with promises
+
+
 
 ### ES7 async-functions
 

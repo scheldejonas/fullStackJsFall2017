@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "firstName": "Gurli",
+    "lastName": "Pedersen",
+    "phone": "20 88 22 11",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/amy_taylor.jpg"
+  },
+  {
+    "id": 2,
+    "firstName": "Søren",
+    "lastName": "Gulddreng",
+    "phone": "55 22 33 99",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/anup_gupta.jpg"
+  },
+  {
+    "id": 3,
+    "firstName": "Peter",
+    "lastName": "Johannes",
+    "phone": "99 33 88 77",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
+  },
+  {
+    "id": 4,
+    "firstName": "Karoline",
+    "lastName": "Sørensen",
+    "phone": "88 33 55 22",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
+  },
+  {
+    "id": 5,
+    "firstName": "Anders",
+    "lastName": "Klausen",
+    "phone": "61 88 22 64",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/james_kennedy.jpg"
+  },
+  {
+    "id": 6,
+    "firstName": "Josefine",
+    "lastName": "Suresen",
+    "phone": "61 88 23 67",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
+  },
+  {
+    "id": 7,
+    "firstName": "Jonathan",
+    "lastName": "Andersen",
+    "phone": "61 09 45 23",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
+  },
+  {
+    "id": 8,
+    "firstName": "Kenneth",
+    "lastName": "Petersen",
+    "phone": "61 33 66 23",
+    "picture": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/kenneth_sato.jpg"
+  }
+
+]
