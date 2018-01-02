@@ -22,6 +22,7 @@
 - http://js-plaul.rhcloud.com/node2/NodeGettingStarted.html#1
 - https://johnpapa.net/es5-es2015-typescript/
 - https://code.visualstudio.com/docs/languages/typescript
+- https://blogs.msdn.microsoft.com/cdnstudents/2013/09/17/visual-studio-tips-for-javascript-coders-try-coffeescript/
 - https://www.youtube.com/watch?v=AfWYO8t7ed4
 - https://www.youtube.com/watch?v=LmL0Gh193M0
 - https://docs.google.com/document/d/1pkWn0_FoZuDJhGei4XlX4mx4zkZH7iuhtc6ecr5kelY/edit?usp=sharing
@@ -35,6 +36,8 @@
 - https://docs.google.com/document/d/1Lxg0SkcKzBkARM3nzS-82xHZfqgDECJA9blTbIjaJTQ/edit?usp=sharing
 - https://docs.google.com/document/d/1mfESEmM5oQfQgpSwi-pc-3Z7baiQaRDsTkLnlwLDBAM/edit
 - https://webpack.js.org/
+- https://davidwalsh.name/es6-generators
+- https://blog.appdynamics.com/engineering/the-benefits-of-migrating-from-javascript-to-typescript/
 
 ### Java & JavaScript
 
@@ -368,7 +371,7 @@ The console gives us then this:
 
 - JavaScripts Prototype
 
-Prototype is a property on a function. Every function has by default the empty 'prototype' property.
+Prototype is a property on a function. Every function has by default the empty ``prototype`` property.
 
 Also, just to inform, there is a property in some browsers: Firefox, Safari and Chrome have a pseudo property called ```__proto__```. We will properly never use it, but it is there as an alternativ to the pure javascript prototype property.
 
@@ -399,7 +402,7 @@ So it is basicly used to create inheritance. That means objects, which inherits 
 
 - User defined Callback Functions
 
-The user defined callback functions has some different understanding to it. It works as a function passed on like an object. so the function the uses your callback function passed as parameter to the function you are running, can then use the variables because of closure, in the function running the called back function, this is where the name comes from. Then issues on the variable thing, I have previously described more above in the IIFE as the solution to where outer scope variables is used inside the called back function wrongly.
+The user defined callback functions has some different understanding to it. It works as a function passed on like an object. so the function that uses your callback function passed as parameter to the function you are running, can then use the variables because of closure, in the function running the called back function, this is where the name comes from. Then issues on the variable thing, I have previously described more above in the IIFE as the solution to where outer scope variables is used inside the called back function wrongly.
 
 To display in simple way what is a callback (called back) function, I have made this example:
 
@@ -722,6 +725,20 @@ Arrow functions cannot be used as [constructors](https://msdn.microsoft.com/en-u
 
 Arrow functions are designed to be lightweight and cannot be used as [generators](https://msdn.microsoft.com/en-us/library/dn858237(v=vs.94).aspx?WT.mc_id=16547-DEV-sitepoint-article83). Using the `yield` keyword in ES6 will throw an error. Use [ES6 generators](https://davidwalsh.name/es6-generators) instead.
 
+```javascript
+// note: `foo(..)` here is NOT a generator!!
+function foo(x) {
+    console.log("x: " + x);
+}
+
+function *bar() {
+    yield; // just pause
+    foo( yield ); // pause waiting for a parameter to pass into `foo(..)`
+}		
+```
+
+
+
 ##### This and Arguments object
 
 Arrow functions do not have the local variable `arguments` as do other functions. The arguments object is an array-like object that allows developers to dynamically discover and access a function’s arguments. This is helpful because JavaScript functions can take an unlimited number of arguments. Arrow functions do not have this object.
@@ -896,7 +913,7 @@ The difference to java is the quite close or close to no real difference in typi
 
 Purpose of Babel, would be to transpile our newer versioned javascript code, into older versioned JS code for all browsers availability to support our application.
 
-Purpose of Webpack is to be our JS library manager also known as a module bundler.
+Purpose of Webpack is to be our module bundler with all different kind of loaders
 
 But it can also be used for tasks as well. Webpack relies on loaders and plugins. 
 
@@ -961,4 +978,84 @@ The an new transpiled js file appears in the build folder. To load this, you nee
 The full code is found [here](/Period%201/exam-preparation/webpack-babel-example/)
 
 - Provide an number of examples to demonstrate the benefits of using TypeScript, including, types, interfaces, classes and generics.
+
+TypeScript writes clean, scalable javascript
+
+Writing clean, object-oriented code in JavaScript can be a bit difficult for anyone, even those with extensive experience in object oriented programming. Naturally, the complexity of the code increases as the size of the project grows. 
+
+This is where Typescript wins over JavaScript—you can very easily write pure object-oriented code in Typescript with little knowledge.
+
+In addition to this, TypeScript
+
+- Is purely [object-oriented programming](https://www.upwork.com/hiring/development/object-oriented-programming/)
+- Can be used for client-side and server-side development alike
+- Offers a “compiler” that can convert to JavaScript-equivalent code
+- Has an API for DOM manipulation
+- Has a namespace concept by defining a “Module”
+
+##### Classes
+
+```javascript
+// class define in TypeScript
+class VirtualPageTracker extends Tracker {
+    private virtualPageName: string = '';
+    constructor(name) {
+        super(name);
+    }
+
+    getName(): void {
+        return this.virtualPageName;
+    }
+
+    static getTrackerName(): string {
+        return  'VirtualPageTracker';
+    }
+}
+```
+
+
+
+##### Types and Interfaces
+
+```javascript
+var name: string;
+name = 2; // type error, assign a number to a string type variable
+
+function foo(value: number) {}
+foo(''); // type error, use a number as a string type parameter
+
+interface Bar {
+    setName: (name: string) => void;
+    getName: () => string;
+}
+
+
+var bar: Bar = {
+    getName: function() {
+        return 'myName';
+    }
+} // type error, setName function is missing in the object assigned to bar.
+```
+
+
+
+##### Generics
+
+```javascript
+// To use generics in TypeScript when declaring a function we have to say the function is generic
+function logAndReturn<T>(arg: T): T {
+    console.log(arg);
+    return arg;
+}
+var result = logAndReturn<string>('hello generics');
+
+// A second way is by using TypeScript’s type inference
+function logAndReturn<T>(arg: T): T {
+    console.log(arg);
+    return arg;
+}
+var result = logAndReturn('hello generics');
+```
+
+
 
