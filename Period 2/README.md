@@ -1,10 +1,61 @@
 # Period 2 - Exam Preparation
 
-###### Interesting Quotes of the day:
+###### Sources
 
-Others are of the opinion that a **full**-**stack developer** is simply someone who is familiar with all layers in computer software development. These developers aren't experts at everything; they simply have a functional knowledge and ability to take a concept and turn it into a finished product.
-
-
+- https://docs.google.com/document/d/19_PQi8gEQeoRmTqndb6jd87iSihU8HRW0koIH8nEES8/edit?usp=sharing
+- https://www.youtube.com/watch?v=QseHOX-5nJQ
+- https://docs.google.com/document/d/12AKRDn-PGH4mkBuKgVpKxqXAw33R5x9DX-QrIHzaPAY/edit?usp=sharing
+- https://docs.google.com/document/d/1-Bu_FC___DM9tS8fugsLe4EnwjPs4OSYCe6PMsCVE2Y/edit?usp=sharing
+- http://slides.mydemos.dk/express1/express1.html#1
+- http://expressjs.com/
+- https://docs.google.com/document/d/1-Bu_FC___DM9tS8fugsLe4EnwjPs4OSYCe6PMsCVE2Y/edit?usp=sharing
+- https://docs.google.com/document/d/1wPaS9vSoMQNbSR5KTSro7CXt2yfQzm2s9cPM3ZCvmTg/edit?usp=sharing
+- http://slides.mydemos.dk/rest/rest.html#1
+- https://mochajs.org/
+- http://chaijs.com/api/bdd/#method_throw
+- https://docs.google.com/document/d/1JyQ4Qgdori9QYZ8Pfjp5x7P5vIGImx0Byc4pNrG9DXA/edit?usp=sharing
+- https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
+- http://slides.mydemos.dk/test1/unitTestingBackend.html#1
+- https://www.youtube.com/watch?v=qI_g07C_Q5I
+- https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose#Mongoose_primer
+- http://slides.mydemos.dk/noSQL/mongo_mongoose.html#1
+- [Link about Cross site Scripting](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
+- https://www.owasp.org/index.php/Session_hijacking_attack
+- https://stormpath.com/blog/build-secure-user-interfaces-using-jwts
+- https://www.youtube.com/watch?v=L5l9lSnNMxg
+- https://www.youtube.com/watch?v=vRBihr41JTo
+- https://www.youtube.com/watch?v=T1QEs3mdJoc
+- https://docs.google.com/document/d/1LIDVt8stIi770lm9xzgiawvOOrCQR3VHgqqBj6UEkeU/edit
+- http://slides.mydemos.dk/security1/security.html#32
+- http://expressjs.com/en/advanced/best-practice-security.html
+- https://stackoverflow.com/questions/6550760/for-restful-services-in-java-is-jax-rs-better-than-an-mvc-framework-like-swing
+- https://www.infoworld.com/article/2687995/java/4-reasons-to-stick-with-java.html
+- https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-node-js-web-app-development/
+- http://voidcanvas.com/describing-node-js/
+- https://www.infoworld.com/article/2687995/java/4-reasons-to-stick-with-java.html
+- https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc
+- https://strongloop.com/strongblog/best-practices-for-express-in-production-part-two-performance-and-reliability/#ensure-your-app-automatically-restarts
+- https://scotch.io/tutorials/test-a-node-restful-api-with-mocha-and-chai
+- http://mochajs.org/#asynchronous-code
+- https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
+- [Link for aws lambda function in node js](https://scotch.io/@richardhyatt/unit-testing-aws-lambda-functions-in-nodejs)
+- http://docs.aws.amazon.com/lambda/latest/dg/welcome.html
+- https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development
+- http://expressjs.com/en/guide/using-middleware.html
+- https://scotch.io/tutorials/route-middleware-to-check-if-a-user-is-authenticated-in-node-js
+- https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+- https://scotch.io/tutorials/easy-node-authentication-google
+- https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
+- http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm
+- https://www.cookielaw.org/faq/
+- https://tools.ietf.org/html/rfc7009
+- https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
+- https://scotch.io/tutorials/the-anatomy-of-a-json-web-token
+- https://scotch.io/bar-talk/why-jwts-suck-as-session-tokens
+- https://stackoverflow.com/questions/11344346/node-js-what-are-the-advantages-of-using-jade
+- https://stackoverflow.com/questions/12526160/mocking-database-in-node-js
+- https://www.npmjs.com/package/db-mock
 
 ### Pros & Cons using Node.js + Express vs. Java/JAX-RS/Tomcat
 
@@ -15,74 +66,68 @@ Others are of the opinion that a **full**-**stack developer** is simply someone 
 
 <u>*Language:*</u>
 
-- It’s weakly typed, so you don’t have to explicitly declare objects as a String, int, float, etc. That’s good for a quick prototype. In a large production project, this can bite you in the ass if you make the wrong assumption about a type. If this is a concern, there are solutions such as TypeScript where you write your code in a different syntax and a pre-processor will validate the code before compiling it to plain old JS. Vanilla JS can be a maintenance disaster if you don’t strongly stick to conventions.
-- Callbacks/Anonymous Functions. You can easily throw around functions as parameters with simple syntax. This makes JS a stronger event-based language.
+It’s weakly typed, so you don’t have to explicitly declare objects as a String, int, float, etc. That’s good for a quick prototype. In a large production project, this can bite you in the ass if you make the wrong assumption about a type. If this is a concern, there are solutions such as TypeScript where you write your code in a different syntax and a pre-processor will validate the code before compiling it to plain old JS. Vanilla JS can be a maintenance disaster if you don’t strongly stick to conventions.
+
+Callbacks/Anonymous Functions. You can easily throw around functions as parameters with simple syntax. This makes JS a stronger event-based language.
 
 <u>*Ecosystem:*</u>
 
-- Package managers like NPM and Bower allow you to easy add and manage dependencies in a project.
-- Dev tools like Grunt and Gulp allow you to automate your workflow. You can create scripts to build, optimize, clean up and deploy your project.
-- Node.js is a swiss army knife and it’s like glue for your infrastructure. You can use it as a load balancer, simple HTTP server, or any sort of microservice. You can interface with external programs on the system to create a media encoding server, image processing server, machine learning data-crunching server, etc.
-- JS on the frontend. JS on that backend. When you’re working with AJAX, JSON and REST APIs, the client-server communication is easy-peazy.
+Package managers like NPM and Bower allow you to easy add and manage dependencies in a project.
+
+Dev tools like Grunt and Gulp allow you to automate your workflow. You can create scripts to build, optimize, clean up and deploy your project.
+
+Node.js is a swiss army knife and it’s like glue for your infrastructure. You can use it as a load balancer, simple HTTP server, or any sort of microservice. You can interface with external programs on the system to create a media encoding server, image processing server, machine learning data-crunching server, etc.
+
+JS on the frontend. JS on that backend. When you’re working with AJAX, JSON and REST APIs, the client-server communication is easy-peazy.
 
 <u>*Marketability:*</u>
 
-- JavaScript is “hot” right now. Whether you think it’s a good or bad language, there’s plenty of demand for JS developers on both the frontend and backend.
+JavaScript is “hot” right now. Whether you think it’s a good or bad language, there’s plenty of demand for JS developers on both the frontend and backend.
 
 <u>*Pros using Node.js + Express*</u>
 
-Sources: [altexsoft](https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-node-js-web-app-development/), [Void Canvas](http://voidcanvas.com/describing-node-js/)
-
-- Robust technology stack
-- Unlimited scalability and speed
-- Rich ecosystem
-- Strong corporate support
-- Asynchronous event driven IO helps concurrent request handling
-- Uses JavaScript, which is easy to learn
-- Share the same piece of code with both server and client side
-- npm, the Node packaged modules has already become huge, and still growing.
-- Active and vibrant community, with lots of code shared via github etc.
-- You can stream big files.
+1. Robust technology stack
+2. Unlimited scalability and speed
+3. Rich ecosystem
+4. Strong corporate support
+5. Asynchronous event driven IO helps concurrent request handling
+6. Uses JavaScript, which is easy to learn
+7. Share the same piece of code with both server and client side
+8. npm, the Node packaged modules has already become huge, and still growing.
+9. Active and vibrant community, with lots of code shared via github etc.
+10. You can stream big files.
 
 <u>*Cons using Node.js + Express*</u>
 
-Sources: [altexsoft](https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-node-js-web-app-development/), [Void Canvas](http://voidcanvas.com/describing-node-js/) 
-
-- Performance bottlenecks and design issues
-- Immaturity of tooling
-- Growing demand for experienced professionals
-- Node.js doesn’t provide scalability. One CPU is not going to be enough; the platform provides no ability to scale out to take advantage of the multiple cores commonly present in today’s server-class hardware.
-- Dealing with relational database is a pain if you are using Node.
-- Every time using a callback end up with tons of nested callbacks.
-- Without diving in depth of JavaScript if someone starts Node, he may face conceptual problem.
-- Node.js is not suited for CPU-intensive tasks. It is suited for I/O stuff only (like web servers).
+1. Performance bottlenecks and design issues
+2. Immaturity of tooling
+3. Growing demand for experienced professionals
+4. Node.js doesn’t provide scalability. One CPU is not going to be enough; the platform provides no ability to scale out to take advantage of the multiple cores commonly present in today’s server-class hardware.
+5. Dealing with relational database is a pain if you are using Node.
+6. Every time using a callback end up with tons of nested callbacks.
+7. Without diving in depth of JavaScript if someone starts Node, he may face conceptual problem.
+8. Node.js is not suited for CPU-intensive tasks. It is suited for I/O stuff only (like web servers).
 
 *<u>Pros using Java/JAX-RS/Tomcat</u>*
 
-Sources: [Nafisto](https://stackoverflow.com/questions/6550760/for-restful-services-in-java-is-jax-rs-better-than-an-mvc-framework-like-swing), [InfoWorld](https://www.infoworld.com/article/2687995/java/4-reasons-to-stick-with-java.html)
-
-- Java is a staple of enterprise computing
-- Java anchors Android apps development
-- Java continues to evolve
-- Java developers are in great demand
-- JAX-RS excels at defining the routing (using Java annotations) as well as eliminating any restrictions on the service class.
+1. Java is a staple of enterprise computing
+2. Java anchors Android apps development
+3. Java continues to evolve
+4. Java developers are in great demand
+5. JAX-RS excels at defining the routing (using Java annotations) as well as eliminating any restrictions on the service class.
 
 <u>*Cons using Java/JAX-RS/Tomcat*</u>
 
-Sources: [Nafisto](https://stackoverflow.com/questions/6550760/for-restful-services-in-java-is-jax-rs-better-than-an-mvc-framework-like-swing), [InfoWorld](https://www.infoworld.com/article/2687995/java/4-reasons-to-stick-with-java.html)
-
-- Security issues have tainted Java’s reputation
-- Java competition keeps getting stiffer
-- Android may be a double-edged sword for Java
-- Apple has proved Java can be banned without fallout
+1. Security issues have tainted Java’s reputation
+2. Java competition keeps getting stiffer
+3. Android may be a double-edged sword for Java
+4. Apple has proved Java can be banned without fallout
 
 
 
 ### Node.js multi-core server setup
 
 - Node.js uses a Single Threaded Non-blocking strategy to handle asynchronous task. Explain strategies to implement a Node.js based server architecture that still could take advantage of a multi-core Server.
-
-Sources: [freeCodeCamp](https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc)
 
 *<u>Strategies</u>*
 
@@ -102,8 +147,6 @@ Splitting - into multiple instances where each instance is responsible for only 
   - Ensure that you can take advantage of a multi-core system
   - Ensure that you can run “many” node-applications on a single droplet on the same port (80)
 
-Sources: [Ensure your app automatically restarts](https://strongloop.com/strongblog/best-practices-for-express-in-production-part-two-performance-and-reliability/#ensure-your-app-automatically-restarts)
-
 <u>*Deployment*</u>
 
 Restart your Node.js processes using a process manager, when application is closed or crashed.
@@ -120,8 +163,6 @@ Run a load balancer example like Nginx, to run several Node.js apps on single dr
 
 - Explain, using relevant examples, concepts related to testing a REST-API using Node.js + relevant packages 
 - Explain, using relevant examples, about testing JavaScript code, relevant packages (Mocha etc.) and how to test asynchronous code.
-
-Sources: [Testing REST api](https://scotch.io/tutorials/test-a-node-restful-api-with-mocha-and-chai), [Asynchronous test](http://mochajs.org/#asynchronous-code), [Mocking HTTP Requests](https://scotch.io/tutorials/nodejs-tests-mocking-http-requests), [Extra: Unit Testing an AWS Lambda Function](https://scotch.io/@richardhyatt/unit-testing-aws-lambda-functions-in-nodejs), [AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Extra: BrowserSync](https://scotch.io/tutorials/how-to-use-browsersync-for-faster-development)
 
 <u>*Testing REST api*</u>
 
@@ -170,8 +211,6 @@ Extra: BrowserSync is compatible with many task runners like [GULP](https://scot
 - Explain, using relevant examples, the Express concept: middleware.
 - Explain, using relevant examples, how to implement sessions, and the legal implications of doing this.
 
-Sources: [Using middleware](http://expressjs.com/en/guide/using-middleware.html) , [Route middleware to check user authentication](https://scotch.io/tutorials/route-middleware-to-check-if-a-user-is-authenticated-in-node-js), [Node Authentication](https://scotch.io/tutorials/easy-node-authentication-setup-and-local), [Node.js Google Authentication](https://scotch.io/tutorials/easy-node-authentication-google), [The Ins and Outs of Token Based Authentication](https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication), [Cookies](http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), [Cookie Policy](https://www.cookielaw.org/faq/), [Token revocation](https://tools.ietf.org/html/rfc7009)
-
 <u>*Middleware*</u>
 
 Middleware functions are functions that have access to the [request object](http://expressjs.com/en/4x/api.html#req) (`req`), the [response object](http://expressjs.com/en/4x/api.html#res) (`res`), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named `next`.
@@ -207,8 +246,6 @@ The token also expires after a set amount of time, so a user will be required to
 ### Session control with clusters
 
 - Explain (conceptually) how you would handle sessions if you run your app in clusters to solve some of problems related to deployment.
-
-Sources: [The Ins and Outs of Token Based Authentication](https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication), [Standard JSON Web Tokens](https://scotch.io/tutorials/the-anatomy-of-a-json-web-token), [Why JWTs sucks as session tokens](https://scotch.io/bar-talk/why-jwts-suck-as-session-tokens)
 
 <u>*Tokens to solve sessions on clusters*</u>
 
@@ -246,8 +283,6 @@ Excellent quality web frameworks like Django know this, which is why they operat
 
 - Compare the express strategy toward (server side) templating with the one you used with Java on second semester.
 - Demonstrate a simple Server Side Rendering example using a technology of your own choice.
-
-Source: [Jade to HTML converter](https://stackoverflow.com/questions/11344346/node-js-what-are-the-advantages-of-using-jade), 
 
 <u>*Main coding difference from JSP way to PUG way*</u>
 
@@ -313,8 +348,6 @@ Any dynamic parts you need can just be handed to the rendering engine as an obje
 - Explain, using relevant examples, different ways to mock out databases, HTTP-request.
 - Explain, briefly, what is meant by a NoSQL database.
 - Explain Pros & Cons in using a NoSQL database like MongoDB as your data store, compared to a traditional Relational SQL Database like MySQL.
-
-Sources: [Not mocking databases](https://stackoverflow.com/questions/12526160/mocking-database-in-node-js), [db-mock](https://www.npmjs.com/package/db-mock)
 
 <u>*Mocking databases*</u>
 
